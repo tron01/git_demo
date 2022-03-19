@@ -1,0 +1,40 @@
+
+
+.mL-10{
+    margin-left:50px;
+}
+
+.pbox{
+margin: 20px;
+padding-top: 10px;
+}
+.header{
+    text-transform: capitalize;
+    font-style: oblique;
+flex-wrap: wrap;
+font-size: xx-large;
+flex-direction: row;
+align-content: center;
+}
+.header::after{
+content: "____________";
+text-decoration: underline;
+position: relative;
+top: 3px;
+font-size: larger;
+right: 150px;
+color:chartreuse;
+
+
+}
+.topbox{
+    padding: 30px;
+    padding-bottom: 300px;
+}
+
+
+.box{
+    margin: 20px;
+    padding-top: 10px;
+   border-radius: 6px;
+}
