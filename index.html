@@ -14,40 +14,33 @@
 </head>
 
 <body>
+    <p class="header text-center bg-dark">&nbsp;Weather</p>
 
-    <div class="d-flex bg-danger topbox  ">
 
 
-        <div class="container-fluid pbox">
-            <p class="header text-center">&nbsp;Weather</p>
+    <div class="mydiv">
+        <div class=" item1 bg-info">
             <br>
-            <div class="row col-xl-12">
-
-                <div class="col-md-4 p-xl-5   bg-info bluebox">
-                    <br>
-                    <form id="w-from" method="get">
-                        <div class="form-group">
-                            <input type="text" class="form-control-lg" id="incity">
-                            <br><br>
-                            <input type="submit" class=" btn btn-success">
-                        </div>
-
-                    </form>
+            <form id="w-from" method="get">
+                <div class="form-group">
+                    <input type="text" class="form-control-lg" id="incity">
+                    <br><br>
+                    <input type="submit" class=" btn btn-success">
                 </div>
-
-
-            </div>
+            </form>
+        </div>
+        <div class="item2  bg-danger">
             <br>
-
-            <div class="col-md-6 p-xl-4  bg-light whitebox">
-                cityname: <p id="city"></p><br>
-                city-weather: <p id="cityw"></p><br>
-                temp: <p id="temp"></p>
-            </div>
+            <p>cityname:</p><span id="city"></span><br>
+            <p>city-weather:</p> <span id="cityw"></span><br>
+            <p>temp:</p><span id="temp"></span>
         </div>
 
-
     </div>
+
+
+
+
 
     <footer class="footer-06">
         <div class="container">
